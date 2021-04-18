@@ -8,10 +8,9 @@
 
 :root{
     /* Colores */
-    --primary-blue: #103276;
-    --secundary-blue: #013361;
+    --primary-blue: #10479E;
     --parrafo-blue: #545F72;
-    --skyblue: #00A3D4;
+    --skyblue: #2FD8EF;
 }
 
 * {
@@ -46,18 +45,71 @@ header .nav-bar img{
     margin-bottom: 35px;
 }
 
-.niveles-titulo{
-    color: var(--primary-blue);
+/* SECTION PROPUESTA*/
+.container-propuesta {
     display: flex;
-    justify-content: center;
-    font-size: 2.4rem;
+    flex-direction: column;
+    padding: 0 20px;
+    margin-bottom: 10px;
 }
 
-.niveles-parrafo{
-    font-size: 1.4rem;
+.container-propuesta .propuesta-titulo{
+    display: inherit;
+    color: var(--primary-blue);
+    padding: 0px 0px 20px 24px;
+    font-size: 2.4rem;
+    background: transparent url("./img/title-block-blue.jpg") no-repeat left top;
+}
+
+.container-propuesta .propuesta-parrafo{
+    font-size: 1.2rem;
     text-align: justify;
     padding: 5px;
     color: var(--parrafo-blue);    
+}
+
+.container-propuesta .decoracion-dos{
+    color: var(--skyblue);
+    padding-right: 5px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.container-propuesta .decoracion-tres{
+    color: var(--skyblue);
+    padding-left: 15px;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.container-propuesta .propuesta-niveles{
+    list-style: none;
+    padding: 0;
+    margin-left: 10px ;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-blue);
+}
+
+/* SECTION INFRAESTRUCTURA*/
+.container-infraestructura{
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.container-infraestructura img {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.container-infraestructura .infra-content {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background: rgba(16,71,158,0.6);
 }
 
 

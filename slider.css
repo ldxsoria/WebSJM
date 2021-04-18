@@ -75,6 +75,9 @@
     text-decoration: none;
 }
 
+.img-slider .slide .info .info-button#yellow{
+    background:#FFC12C;
+}
 /*--H3*/
 
 .img-slider .slide .info p{
