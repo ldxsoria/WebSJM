@@ -92,26 +92,57 @@ header .nav-bar img{
 }
 
 /* SECTION INFRAESTRUCTURA*/
-.container-infraestructura{
+.container-infra{
     position: relative;
     width: 100%;
     height: 250px;
 }
 
-.container-infraestructura img {
+.container-infra img {
     z-index: 1;
     position: absolute;
     width: 100%;
 }
 
-.container-infraestructura .infra-content {
+.container-infra .infra-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: absolute;
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: rgba(16,71,158,0.6);
+    background: rgba(16, 70, 158, 0.822);
+    color: white;
 }
 
+.container-infra .infra-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: thin solid white;
+    margin: 15px;
+    padding: 35px 60px;
+}
+
+.container-infra .infra-section p{
+    margin-bottom: 10px;
+}
+
+.container-infra .infra-section .infra-btn{
+    background: var(--skyblue);
+    padding: 5px 10px;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    padding: 7px 12px;
+    border-radius: 7px;
+    font-size: 1rem;
+    
+}
 
 
 
