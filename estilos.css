@@ -10,6 +10,7 @@
     /* Colores */
     --primary-blue: #103276;
     --secundary-blue: #013361;
+    --parrafo-blue: #545F72;
     --skyblue: #00A3D4;
 }
 
@@ -25,14 +26,14 @@ html {
 }
 
 header .nav-bar {
-    background: var(--secundary-blue);
+    background: white;
     display: flex;
     align-items: center;
     width: 100%;
     min-width: 320px;
     height: 65px;
-    justify-content: space-around;
-    box-shadow: 0 0 2px rgba(0,0,0,1)
+    justify-content: space-between;
+    box-shadow: 0 0 2px rgb(26, 23, 207)
 }
 
 header .nav-bar img{
@@ -41,20 +42,6 @@ header .nav-bar img{
     height: 52px;
 }
 
-/*.container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    text-align: center;
-}
-
-.slideshow-container img{
-    width: 350px;
-    height: 200px;
-}*/
 .container{
     margin-bottom: 35px;
 }
@@ -81,8 +68,9 @@ section .niveles {
 
 .niveles-parrafo{
     font-size: 1.4rem;
-    text-align: center;
-    padding: 5px;    
+    text-align: justify;
+    padding: 5px;
+    color: var(--parrafo-blue);    
 }
 
 section .niveles img {
