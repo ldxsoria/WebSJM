@@ -24,6 +24,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    /*font-family: 'Proza Libre', sans-serif;*/
 }
 
 header .nav-bar {
@@ -132,6 +133,10 @@ header .nav-bar img{
     padding: 35px 60px;
 }
 
+.container-infra .infra-section a{
+    text-decoration: none;
+}
+
 .container-infra h2{
     font-size: 2rem;
     margin-bottom: 5px;
@@ -184,6 +189,13 @@ header .nav-bar img{
 .container-ask p{
     padding: 10px 50px;
 }
+/*ATENCION*/
+.atencion{
+    display: flex;
+    background: var(--second-skyblue);
+    color: var(--primary-blue);
+    
+}
 
 /* FOOTER */
 .footer-sjm{
@@ -196,6 +208,8 @@ header .nav-bar img{
     color: white;
     padding: 25px;
     background: var(--primary-blue);
+    /*background: rgb(24,101,180);
+background: linear-gradient(90deg, rgba(24,101,180,1) 1%, rgba(19,108,213,1) 100%);*/
 }
 
 .footer-sjm p{
@@ -219,6 +233,7 @@ header .nav-bar img{
 
 .footer-sjm .footer-icon{
     width: 35px;
+    height: 35px;
     padding: 8px;
     margin: 10px 5px;
     border-radius: 50%;
