@@ -156,6 +156,8 @@ header .nav-bar img{
 .container-ask {
     display: flex;
     width: 100%;
+    max-width: 900px;/*test*/
+    margin: 0 auto;
     flex-direction: column;
     text-align: center;
     background: var(--second-skyblue);
@@ -183,3 +185,42 @@ header .nav-bar img{
     padding: 10px 50px;
 }
 
+/* FOOTER */
+.footer-sjm{
+    display: flex;
+    width: 100%;
+    max-width: 900px;/*test*/
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 25px;
+    background: var(--primary-blue);
+}
+
+.footer-sjm p{
+    margin: 2px;
+}
+
+.footer-sjm a{
+    text-decoration: none;
+    color: white;
+    margin: 3px 2px;
+}
+
+.footer-sjm .footer-logo {
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.footer-sjm .footer-redes{
+    display: flex;
+}
+
+.footer-sjm .footer-icon{
+    width: 35px;
+    padding: 8px;
+    margin: 10px 5px;
+    border-radius: 50%;
+    border: thin solid white;
+}
