@@ -53,6 +53,8 @@ header .nav-bar img{
 .container-propuesta {
     display: flex;
     flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
     padding: 0 20px;
     margin-bottom: 10px;
 }
@@ -222,6 +224,7 @@ header .nav-bar img{
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin: 0 auto;
     max-width: 900px;
     padding-top: 10px;
     border-top: 10px solid var(--skyblue);
@@ -272,7 +275,7 @@ header .nav-bar img{
     height: 250px;
     padding: 20px;
     max-width: 900px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     flex-direction: column;
     /* align-items: center;
     text-align: center; */
