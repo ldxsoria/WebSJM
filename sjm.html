@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./slider.css">
     <link rel="stylesheet" href="./estilos.css">
     <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./testimonial.css">
     <script src="./js/navbar.js"></script>
 </head>
 <body>
@@ -133,16 +135,54 @@
         </div>
     </section>
     <section class="testimonios">
-        <div class="testimonial-item"></div>
-            <div class="navigation-slider">
-                <div class="btn2 active"></div>
-                <div class="btn2"></div>
-                <div class="btn2"></div>
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="testimonialBox">
+                      <img src="./img/right-quote.png" class="quote" alt="">
+                      <div class="testimonial-content">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate distinctio atque eveniet accusamus fugit tempore fuga rerum consequatur soluta qui et iste autem doloremque delectus quam ratione, sed earum.</p>
+                          <div class="testimonial-details">
+                              <div class="imgBx">
+                                <img src="./img/user01.jpg" alt="">
+                              </div>
+                              <h3>Someone Famous<br><span>Creative</span></h3>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                <div class="testimonialBox">
+                    <img src="./img/right-quote.png" class="quote" alt="">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate distinctio atque eveniet accusamus fugit tempore fuga rerum consequatur soluta qui et iste autem doloremque delectus quam ratione, sed earum.</p>
+                        <div class="testimonial-details">
+                            <div class="imgBx">
+                                <img src="./img/user01.jpg" alt="">
+                            </div>
+                            <h3>Someone Famous<br><span>Creative</span></h3>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <div class="swiper-slide">
+                <div class="testimonialBox">
+                    <img src="./img/right-quote.png" class="quote" alt="">
+                    <div class="testimonial-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, voluptate distinctio atque eveniet accusamus fugit tempore fuga rerum consequatur soluta qui et iste autem doloremque delectus quam ratione, sed earum.</p>
+                        <div class="testimonial-details">
+                            <div class="imgBx">
+                                <img src="./img/user01.jpg" alt="">
+                            </div>
+                            <h3>Someone Famous<br><span>Creative</span></h3>
+                        </div>
+                    </div>
+                </div>
+             </div>
             </div>
         </div>
-        </div>
-        <div class="testimonial-item"></div>
-        <div class="testimonial-item"></div>
+            <!-- <div class="swiper-pagination"></div> -->
+    </section>
     </section>
     <section class="enlaces"></section>
     <section class="vacantes">
@@ -245,5 +285,28 @@
     }
     repeat();
     </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+
+
 </body>
 </html>
