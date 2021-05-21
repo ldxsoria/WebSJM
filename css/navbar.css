@@ -85,6 +85,8 @@ ul.show{
 
     .menu-btn{
         display: inline-flex;
+        position: absolute;
+        right: 0;
     }
 
     .menu-items{
@@ -118,8 +120,10 @@ ul.show{
     }
 
     .menu-logo {
+        position: absolute;
         font-size: 15px;
-        padding-left: 35px;
+        padding: 35px;
+        left: -10px;
     }
 }
 
