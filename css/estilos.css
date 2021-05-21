@@ -54,16 +54,16 @@ header .nav-bar img{
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    align-items: center;
+    /* align-items: center; */
     margin: 0 auto;
     padding: 0 20px;
     margin-bottom: 10px;
 }
 
 .container-propuesta .propuesta-titulo{
-    display: inherit;
     color: var(--primary-blue);
-    padding: 0px 0px 20px 24px;
+    text-align: center;
+    padding: 10px 0px;
     font-size: 2rem;
     /* background: transparent url("./img/title-block-blue.jpg") no-repeat left top; */
 }
@@ -91,6 +91,12 @@ header .nav-bar img{
 
 .container-propuesta .propuesta-niveles{
     list-style: none;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    background: lavender; */
     padding: 0;
     margin-left: 10px ;
     font-size: 1.4rem;
