@@ -168,6 +168,25 @@ header .nav-bar img{
     border-radius: 7px;
     font-size: 1rem;
 }
+/* ENLACES */
+.enlaces {
+    color: var(--primary-blue);
+    margin-bottom: 25px;
+}
+
+.enlaces h2{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.enlaces a{
+    font-size: 1.4rem;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
 /*VACANTES*/
 .vacantes{
     position: relative;

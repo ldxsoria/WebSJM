@@ -1,7 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root{
+    /* Colores */
+    --primary-blue: #10479E;
+    --secundary-color: #337CC4;
+    --parrafo-blue: #545F72;
+    --skyblue: #2FD8EF;
+    --second-skyblue: #EDF7F9;
+    --yellow: #FFC12C;
 }
 
 .testimonial{
@@ -11,13 +15,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2196f3;
     overflow: hidden;
 }
 
 .swiper-container {
     width: 100%;
     padding-top: 50px;
+    background: var(--primary-blue);
     padding-bottom: 50px;
   }
 
@@ -25,7 +29,8 @@
     background-position: center;
     background-size: cover;
     width: 320px;
-    background: #fff;
+    background: rgba(255,255,255,.1);
+    border: thin solid white;
   }
 
   /* .swiper-slide img {
