@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.title1 {
+    color: var(--primary-blue);
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 3rem;
+}
+
+.title2 {
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 2rem;
+}
+
+.parrafo{
+    font-size: 1.4rem;
+    text-align: justify;
+    padding: 5px;
+    color: #FFF;
+}
+
+
+.mivi-img{
+    height: 120px;
+    overflow: hidden;
+}
+
+.mision{
+    background: #5bcbff;
+}
+
+.vision{
+    background: #16A085;
+ 
+}
+
