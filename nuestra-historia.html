@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nuestra Historia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/historia.css">
 </head>
 <body>
+    <span class="nav-bar" id="btnMenu"><i class="fas fa-bars"></i>Menú</span>
+    <nav class="main-nav">
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="" class="menu__link">Inicio</a></li>
+            <li class="menu__item container-submenu"><a href="#" class="menu__link submenu-btn">Productos <i class="fas fa-chevron-down"></i></a>
+                <ul class="submenu">
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                </ul>
+            </li>
+            <li class="menu__item"><a href="" class="menu__link">aa</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Contacto</a></li>
+        </ul>
+    </nav>
     <div class="container-historia">
         <h1 class="ch-title1">Historia</h1>
         <h2 class="ch-title2">La fundación de Nuestro Colegio</h2>
@@ -79,7 +97,7 @@
                 <div class="footer-icon"><img src="./img/instagram-icon.svg"   alt=""></div>
         </div>
     </footer>
-    
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>
