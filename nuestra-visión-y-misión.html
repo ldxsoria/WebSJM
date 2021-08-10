@@ -4,11 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/mision-vision.css">
     <title>Misión y Visión</title>
 </head>
 <body>
+    <span class="nav-bar" id="btnMenu"><img  class="menu-logo" src="./img/logo-csjmc.svg" alt=""><i class="fas fa-bars"></i></span>
+    <nav class="main-nav">
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="./index.html" class="menu__link">Inicio</a></li>
+            <li class="menu__item container-submenu"><a href="#" class="menu__link submenu-btn">Nosotros <i class="fas fa-chevron-down"></i></a>
+                <ul class="submenu">
+                    <li class="menu__item"><a href="./nuestra-historia.html" class="menu__link">Nuestra Historia</a></li>
+                    <li class="menu__item"><a href="#" class="menu__link">Nuestra Visión y Misión</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                </ul>
+            </li>
+            <li class="menu__item"><a href="" class="menu__link">aa</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Contacto</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <secction class="mivi-img">
             <img src="./img/banner-mi-vi.jpg" alt="">
@@ -26,5 +44,6 @@
             <p class="parrafo" id="secundario">Al 2023, ser una institución educativa líder en la región, reconocida por su propuesta evangelizadora en valores y formación integral de calidad.</p>
         </secction>
     </div>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
