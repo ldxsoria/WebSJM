@@ -29,6 +29,12 @@
     color: #FFF;
 }
 
+.parrafo2{
+    font-size: 1.4rem;
+    text-align: justify;
+    padding: 5px;
+    color: var(--parrafo-blue);
+}
 
 .mivi-img{
     height: 120px;
