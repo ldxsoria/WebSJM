@@ -345,7 +345,9 @@ header .nav-bar img{
     align-items: center;
     color: white;
     padding: 25px;
-    background: var(--primary-blue);
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(70,146,231,0.8855917366946778) 0%, rgba(37,110,232,1) 100%);
+    /*background: var(--primary-blue);*/
     /*background: rgb(24,101,180);
 background: linear-gradient(90deg, rgba(24,101,180,1) 1%, rgba(19,108,213,1) 100%);*/
 }
