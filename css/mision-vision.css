@@ -4,8 +4,6 @@
     max-width: 1200px;
     /* align-items: center; */
     margin: 0 auto;
-    padding: 0 20px;
-    margin-bottom: 10px;
 }
 
 .title1 {
@@ -25,14 +23,12 @@
 .parrafo{
     font-size: 1.4rem;
     text-align: justify;
-    padding: 5px;
     color: #FFF;
 }
 
 .parrafo2{
     font-size: 1.4rem;
     text-align: justify;
-    padding: 5px;
     color: var(--parrafo-blue);
 }
 
@@ -41,12 +37,31 @@
     overflow: hidden;
 }
 
+.mision_vision{
+    padding: 30px;
+}
+
 .mision{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;/*test*/
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    color: white;
     background: #5bcbff;
+    padding: 30px;
 }
 
 .vision{
-    background: #16A085;
- 
+    display: flex;
+    width: 100%;
+    max-width: 1200px;/*test*/
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background: #858d8b;
+    padding: 30px;
 }
 
