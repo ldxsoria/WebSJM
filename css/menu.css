@@ -1,12 +1,19 @@
 .nav-bar{
     /*position: fixed;*/
-    background: red;
-    padding: 20px;
-    display: block;
+    background: var(--primary-blue);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
     color: white;
     cursor: pointer;
     font-size: 15px;
     width: 100%;
+}
+
+.menu-logo{
+    width: 100px;
+    height: auto;
 }
 
 .menu, .submenu{
@@ -16,8 +23,8 @@
 }
 
 .menu {
-    border: thin solid green;
     background: gray;
+    /*text-align: center;*/
     width: 100%;
     margin-left: -100%;
     display: none;
@@ -53,7 +60,9 @@
 
 .mostrar {
     display: block;
+    text-align: center;
     margin-left: 0;
+    
 }
 
 @media(min-width:1024px){
