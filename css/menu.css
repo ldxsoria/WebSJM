@@ -1,6 +1,8 @@
 .nav-bar{
     /*position: fixed;*/
-    background: var(--primary-blue);
+    background-color: #fff;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
     display: flex;
     justify-content: space-between;
     align-items: center;
