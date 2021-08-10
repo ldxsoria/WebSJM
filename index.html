@@ -8,30 +8,30 @@
     <link href=“https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap” rel=“stylesheet”>
     <!--<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./css/slider.css">
     <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/testimonial.css">
-    <script src="./js/navbar.js"></script>
 </head>
 <body>
-    <header>
-        <nav class="menu">
-            <img  class="menu-logo" src="./img/logo-csjmc-blue.svg" alt="">
-            <ul class="menu-items">
-                <li class="active"><a href="">Inicio</a></li>
-                <li><a href="./nuestra-historia.html">Nuestra Historia</a></li>
-                <li><a href="">Etc</a></li>
-                <li><a href="">Etc</a></li>
-                <li><a href="">Etc</a></li>
-                <li><a href="">Etc</a></li>
-            </ul>
-            <span class="menu-btn">
-                <img src="./img/bars-solid.svg" alt="">
-            </span>
-        </nav>
-    </header>
+    <span class="nav-bar" id="btnMenu"><img  class="menu-logo" src="./img/logo-csjmc-blue.svg" alt=""><i class="fas fa-bars"></i></span>
+    <nav class="main-nav">
+        <ul class="menu" id="menu">
+            <li class="menu__item"><a href="#" class="menu__link">Inicio</a></li>
+            <li class="menu__item container-submenu"><a href="#" class="menu__link submenu-btn">Nosotros <i class="fas fa-chevron-down"></i></a>
+                <ul class="submenu">
+                    <li class="menu__item"><a href="./nuestra-historia.html" class="menu__link">Nuestra Historia</a></li>
+                    <li class="menu__item"><a href="./nuestra-visión-y-misión.html" class="menu__link">Nuestra Visión y Misión</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                    <li class="menu__item"><a href="" class="menu__link">Ejemplo 1</a></li>
+                </ul>
+            </li>
+            <li class="menu__item"><a href="" class="menu__link">aa</a></li>
+            <li class="menu__item"><a href="" class="menu__link">Contacto</a></li>
+        </ul>
+    </nav>
     <div class="container">
         <div class="img-slider">
             <div class="slide active">
@@ -237,7 +237,7 @@
         </div>
     </footer>
 
-   
+    <script src="./js/menu.js"></script>
 
     <!--Javascript Slider1-->
     <script type="text/javascript">

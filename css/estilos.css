@@ -28,7 +28,12 @@ html {
     /*font-family: 'Proza Libre', sans-serif;*/
 }
 
-header .nav-bar {
+.nav-bar i{
+    font-size: 2rem; 
+    color: #10479E;
+}
+
+/*header .nav-bar {
     background: white;
     display: flex;
     align-items: center;
@@ -43,7 +48,7 @@ header .nav-bar img{
     width: 144px;
     aspect-ratio: auto 144 / 52;
     height: 52px;
-}
+}*/
 
 .container{
     margin-bottom: 35px;
